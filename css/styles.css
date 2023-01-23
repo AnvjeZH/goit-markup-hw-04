@@ -35,8 +35,8 @@ ul {
 }
 img {
   display: block;
-  /* max-width: 100%;
-  height: auto; */
+  max-width: 100%;
+  height: auto;
 }
 /* ========================/RESET============================= */
 
@@ -376,9 +376,9 @@ body {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-.portfolio-item {
+/* .portfolio-item {
   flex-basis: calc((100% - 192px) / 9);
-}
+} */
 /* .portfolio-item:not(:nth-child(3n)) {
   margin-right: 24px;
 }
