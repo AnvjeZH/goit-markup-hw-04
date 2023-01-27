@@ -207,7 +207,6 @@ body {
 /* ======================HERO================================= */
 .hero {
   max-width: 1440px;
-  height: 600px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 188px;
@@ -341,7 +340,6 @@ body {
 }
 
 .team-cards {
-  /* border-radius: 0px 0px 4px 4px; */
   padding: 32px 16px;
 }
 .team-names {
@@ -477,9 +475,6 @@ body {
   gap: 24px;
 }
 
-/* .filter-item:not(:last-child) {
-  margin-right: 24px;
-} */
 .filter-btn {
   display: flex;
   flex-basis: calc((100% - 24px * 4) / 5);
@@ -545,9 +540,7 @@ body {
   border: 1px solid var(--border-color);
   border-top: none;
 }
-/* .portfolio-card:hover {
-  border: 0.5px solid var(--border-accent-color);
-} */
+
 .portfolio-name {
   margin-bottom: 8px;
 }
